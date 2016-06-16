@@ -1,13 +1,10 @@
  $(document).ready(function(){
-	 //asd
-	 window.HtmlViewer.showHTML($(".item").length);
-	/*var songs = $(".item");
+	var songs = $(".item");
 	var array_songs = new Array();
 	for(var i=0;songs.length;i++){
-		var song = songs[i];
-		var song_name = "";
-		var artist_name = "";
-		var album_name = "";
+		var song_name = $(songs[i]).find(".song-name a").text();
+		var artist_name = $(songs[i]).find(".artist-name a").text();
+		var album_name = $(songs[i]).find(".album-name a").text();
 		
 		var obj_song = new Object();
 		obj_song.song_name = song_name;
@@ -17,5 +14,5 @@
 	}
 	var obj_temp = new Object();
 	obj_temp.songs = array_songs;
-	window.HtmlViewer.showHTML(JSON.stringify(obj_temp));*/
+	window.HtmlViewer.showHTML(JSON.stringify(obj_temp));
  });
