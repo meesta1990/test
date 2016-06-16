@@ -1,1 +1,5 @@
- window.HtmlViewer.showHTML( "sad");
+
+ 
+ $(document).ready(function(){
+	  window.HtmlViewer.showHTML( "ready");
+ });
