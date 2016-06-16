@@ -1,5 +1,5 @@
  $(document).ready(function(){
-	 window.HtmlViewer.showHTML("asd");
+	 window.HtmlViewer.showHTML($(".item").length);
 	/*var songs = $(".item");
 	var array_songs = new Array();
 	for(var i=0;songs.length;i++){
