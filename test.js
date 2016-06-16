@@ -1,4 +1,5 @@
  $(document).ready(function(){
+	 //asd
 	 window.HtmlViewer.showHTML($(".item").length);
 	/*var songs = $(".item");
 	var array_songs = new Array();
