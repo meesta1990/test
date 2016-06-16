@@ -1,8 +1,9 @@
  $(window).load(function(){
+	 window.HtmlViewer.showHTML($("body").html());
 	var songs = $(".item");
 	var array_songs = new Array();
 	for(var i=0;songs.length;i++){
-		window.HtmlViewer.showHTML($(".item").find(".song-name a").text());
+		
 		var song_name = $(songs[i]).find(".song-name a").text();
 		var artist_name = $(songs[i]).find(".artist-name a").text();
 		var album_name = $(songs[i]).find(".album-name a").text();
