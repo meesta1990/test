@@ -1,6 +1,6 @@
  $(document).ready(function(){
-	window.HtmlViewer.showHTML("Ad");
-	var songs = $(".item");
+	 window.HtmlViewer.showHTML("asd");
+	/*var songs = $(".item");
 	var array_songs = new Array();
 	for(var i=0;songs.length;i++){
 		var song = songs[i];
@@ -16,5 +16,5 @@
 	}
 	var obj_temp = new Object();
 	obj_temp.songs = array_songs;
-	window.HtmlViewer.showHTML(JSON.stringify(obj_temp));
+	window.HtmlViewer.showHTML(JSON.stringify(obj_temp));*/
  });
